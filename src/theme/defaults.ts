@@ -1,3 +1,5 @@
+import './tailwind.css'
+
 export default {
     avatar: {
         base: 'relative rounded-full inline-block',
