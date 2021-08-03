@@ -21,7 +21,7 @@
     "test:coverage": "jest --coverage",
     "codecov": "codecov",
     "deploy:docs": "gh-pages -d docs",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release  --branches main"
   },
   "config": {
     "commitizen": {
