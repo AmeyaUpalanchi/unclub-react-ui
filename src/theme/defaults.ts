@@ -71,5 +71,33 @@ export default {
             disabled: 'opacity-50 cursor-not-allowed',
         },
     },
+    alert: {
+        base: 'p-4 pl-14 relative rounded-xl leading-5',
+        withClose: 'pl-12',
+        success: 'bg-green-100 text-green-900',
+        danger: 'bg-red-100 text-red-900',
+        warning: 'bg-yellow-100 text-yellow-900',
+        primary: 'bg-gray-100 text-gray-900',
+        info: 'bg-blue-100 text-blue-900',
+        icon: {
+            base: 'h-6 w-6',
+            success: 'text-green-700',
+            warning: 'text-yellow-700',
+            danger: 'text-red-700',
+            primary: 'text-gray-700',
+            info: 'text-blue-700',
+        },
+    },
+    backdrop: {
+        base: 'fixed inset-0 z-40 flex items-end bg-black bg-opacity-50 sm:items-center sm:justify-center',
+    },
+    card: {
+        base: 'min-w-0 rounded-lg ring-1 ring-black ring-opacity-5 overflow-hidden',
+        default: 'bg-white',
+    },
+    cardBody: {
+        base: 'p-4',
+    },
+   
     
 };
