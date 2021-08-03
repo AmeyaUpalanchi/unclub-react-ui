@@ -7,7 +7,6 @@ export default {
             large: 'w-12 h-12',
         },
     },
-
     badge: {
         base: 'inline-flex px-3 pt-1 pb-1 text-xs font-sm leading-4 rounded-md',
         success: 'text-green-700 bg-green-50',
@@ -32,4 +31,45 @@ export default {
         valid: 'border-green-600 focus:border-green-400 focus:ring focus:ring-green-200',
         invalid: 'border-red-600 focus:border-red-400 focus:ring focus:ring-red-200',
     },
+    button: {
+        base: 'align-bottom inline-flex  text-sm items-center justify-center cursor-pointer leading-5 transition-colors duration-150 font-medium focus:outline-none',
+        block: 'w-full',
+        rounded: 'rounded-full',
+        size: {
+            larger: 'px-10 py-4 rounded-lg',
+            large: 'px-6 py-3 rounded-lg',
+            regular: 'px-4 py-2 rounded-lg text-sm',
+            small: 'px-3 py-1 rounded-md text-sm',
+            icon: {
+                larger: 'p-4 rounded-lg',
+                large: 'p-3 rounded-lg',
+                regular: 'p-2 rounded-lg',
+                small: 'p-2 rounded-md',
+            },
+        },
+        icon: {
+            larger: 'h-5 w-5',
+            large: 'h-5 w-5',
+            regular: 'h-5 w-5',
+            small: 'h-4 w-4',
+            left: 'mr-2 -ml-1',
+            right: 'ml-2 -mr-1',
+        },
+        primary: {
+            base: 'text-white bg-primary border border-transparent',
+            active: 'active:bg-primary hover:bg-secondary focus:ring focus:ring-purple-300',
+            disabled: 'opacity-50 cursor-not-allowed',
+        },
+        outline: {
+            base: 'text-gray-600 bg-white border-primary border-2',
+            active: 'active:bg-gray-100 hover:bg-gray-50 focus:ring focus:ring-purple-300',
+            disabled: 'opacity-50 cursor-not-allowed bg-gray-300',
+        },
+        link: {
+            base: 'text-gray-600 focus:outline-none border border-transparent',
+            active: 'active:bg-transparent hover:bg-gray-100',
+            disabled: 'opacity-50 cursor-not-allowed',
+        },
+    },
+    
 };
